@@ -39,7 +39,7 @@ const worker = {
 
 const customize = function(worker) {
     return {
-        worker,
+        ...worker,
         fullName: `Mr./Mrs. ${worker.surname}, ${worker.name}`,
         age: `${worker.age} years old`
     };
