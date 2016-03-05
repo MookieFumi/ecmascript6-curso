@@ -1,2 +1,4 @@
-*/node_modules
-class-001/dist
+node_modules/
+dist/
+
+*.log
